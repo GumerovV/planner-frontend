@@ -8,7 +8,7 @@ interface InputFieldProps {
 	variant?: string
 	state?: 'error' | 'success'
 	disabled?: boolean
-	type: string
+	type?: string
 	isNumber?: boolean
 }
 

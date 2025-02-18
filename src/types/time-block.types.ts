@@ -7,6 +7,4 @@ export interface ITimeBlock extends IBase {
 	order: number
 }
 
-export type TypeTimeBlockFromState = Partial<
-	Omit<ITimeBlock, 'id' | 'updatedAt'>
->
+export type TypeTimeBlockFromState = Partial<Omit<ITimeBlock, 'updatedAt'>>
