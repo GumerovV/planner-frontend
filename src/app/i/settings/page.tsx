@@ -1,7 +1,7 @@
 import React from 'react'
-import Settings from '@/app/i/settings/Settings'
 import { Metadata } from 'next'
-import { NO_INDEX_PAGE } from '@/constants/seo.constants'
+import { NO_INDEX_PAGE } from '@/shared/config/seo.constants'
+import SettingsPage from '@/pages/settings/ui'
 
 export const metadata: Metadata = {
 	title: 'Settings',
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 }
 
 const Page = () => {
-	return <Settings />
+	return <SettingsPage />
 }
 
 export default Page

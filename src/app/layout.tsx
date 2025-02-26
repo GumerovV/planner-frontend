@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Noto_Sans } from 'next/font/google'
 import './globals.scss'
-import { SITE_NAME } from '@/constants/seo.constants'
+import { SITE_NAME } from '@/shared/config/seo.constants'
 import { Providers } from '@/app/providers'
 
 const zen = Noto_Sans({

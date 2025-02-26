@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { EnumToken } from '@/services/auth-token.service'
-import { DASHBOARD_PAGES } from '@/config/pages-url.config'
+import { EnumToken } from '@/shared/api/auth/auth-token.service'
+import { DASHBOARD_PAGES } from '@/shared/config/pages-url.config'
 
 export function middleware(request: NextRequest, response: NextResponse) {
 	const { url, cookies } = request
